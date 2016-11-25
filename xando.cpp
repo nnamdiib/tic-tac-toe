@@ -9,9 +9,6 @@ char square[10] = {'c', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
 // even --> player 2 (o)
 short playerTurn = 1;
 
-// if number of moves equal to 9, game is draw
-int numberOfMoves = 0;
-
 void drawGrid(){	
 	cout << "     |     |     " << endl;
 	cout << "  " << square[1] << "  |  " << square[2] << "  |  " << square[3] << endl;
@@ -94,5 +91,4 @@ int main(){
 	}
 
 	return 0;
-
 }
